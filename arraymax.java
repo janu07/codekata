@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class max{
+class arraymax{
       public static void main(String aa[]){
        int n;
        int count=0;
