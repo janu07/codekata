@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class intcount
+class integercount
 {
 	public static void main(String args[])
 	{
@@ -21,7 +21,7 @@ class intcount
 		case '6':
 		case '7':  
 		case '8':
-		case '	9': 
+		case '9': 
 			c++;
 			break;			
 	           }
