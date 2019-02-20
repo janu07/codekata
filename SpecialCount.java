@@ -20,6 +20,6 @@ else if(ch==' ')
 else
 ++c3;
 }
-System.out.println("no of Symbol="+c3);
+System.out.println(c3);
 }
 }
