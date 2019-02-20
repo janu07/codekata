@@ -7,8 +7,7 @@ class big
         int l=0; 
         int num;
         Scanner input=new Scanner(System.in);
-        int n=input.nextInt();
-        for(int i=0;i<n;i++)
+        for(int i=0;i<10;i++)
         {
           num=input.nextInt();
           if(num>l)
