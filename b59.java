@@ -3,16 +3,17 @@ class b59
 {
      public static void main(String aa[])
 {
-    int n,r=0;
+    int n,c=0,r;
      Scanner s=new Scanner(System.in);
      n=s.nextInt();
 	while(n > 0) 
 {
 			r = n % 10;
-			r++;
+			if(r!=0)
+			    c++;
 			n = n / 10;
 }
-System.out.println(r);
+System.out.println(c);
 		s.close(); 
 }
 }
