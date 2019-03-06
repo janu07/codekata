@@ -10,11 +10,11 @@ class ss
 	 n=n1*n2;
 	if(n%2==0) 
 {
-	System.out.println("Even");			
+	System.out.println("even");			
 }
 	else 
 {
-	System.out.println("Odd");	
+	System.out.println("odd");	
 }
 
 		s.close(); 
