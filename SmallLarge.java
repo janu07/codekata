@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
-class MinMax
+class SmallLarge
 {
     public static void main(String[] args)
     {
