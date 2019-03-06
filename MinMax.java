@@ -1,0 +1,20 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+class MinMax
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        Integer[] numbers =new Integer[n];
+ 
+        for (int i=0;i<numbers.length;i++)
+        {
+            numbers[i]=sc.nextInt();
+        }
+        int min = (int) Collections.min(Arrays.asList(numbers));
+        int max = (int) Collections.max(Arrays.asList(numbers));
+        System.out.println(min +"\t "+max);
+    }
+}
