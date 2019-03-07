@@ -10,7 +10,9 @@ class b77
        {
            if(n%i==0)
            {
-               System.out.print(i+" ");
+               System.out.print(i);
+               if(i<=n-1)
+                 System.out.print(" ");
            }
        }
       sj.close();
