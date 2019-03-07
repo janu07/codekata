@@ -13,8 +13,6 @@ class b77
                System.out.print(i+" ");
            }
        }
-        
-            
-        
+      sj.close();
    }
 } 
