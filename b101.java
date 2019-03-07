@@ -5,7 +5,7 @@ class b101
     {  
         String s;
         Scanner sj = new Scanner(System.in);
-        str = sj.next();
+        s = sj.next();
         int n=sj.nextInt();
         int len=s.length();
         int find=len-n;
