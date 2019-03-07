@@ -6,7 +6,7 @@ class b75
    {
         String s;
         Scanner sj = new Scanner(System.in);
-        str = sj.next();
+        s= sj.next();
         int len=s.length();
         char charArray[]=s.toCharArray();  
         if(len%2!=0)
