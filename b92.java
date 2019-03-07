@@ -10,7 +10,7 @@ class b92
         int arr[]= new int[l];
         for(int i=0;i<l;i++)
         {
-            arr[i]=sc.nextInt();
+            arr[i]=sj.nextInt();
             sum+=arr[i];
         }
         System.out.print(sum);
