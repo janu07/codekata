@@ -1,5 +1,5 @@
 import java.util.*;
-class p5
+class play5
 {
     public static void main(String arg[])
     {
