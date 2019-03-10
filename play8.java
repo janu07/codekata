@@ -19,9 +19,12 @@ class play8
               ch[0]=Character.toUpperCase(str[i].charAt(0));
               System.out.print(ch[j]);
               j++;
+              if(i<str.length-1)
+            {
+                System.out.print(" ");
             }
-            System.out.print(" ");
-          
+          }
+   
         i++;
         }
     }
