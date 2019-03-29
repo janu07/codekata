@@ -4,9 +4,9 @@ class play28
     public static void main(String arg[])
     {
         Scanner sj=new Scanner(System.in);
-        String str=sj.nextLine();
+        String s=sj.nextLine();
         
-        String string[]=str.split(" ");
+        String string[]=s.split(" ");
         for(int i=0;i<string.length;i++)
         {
         System.out.print(string[i]);
