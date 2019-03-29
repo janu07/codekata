@@ -5,12 +5,12 @@ class play24
     public static void main(String ar[])
     {
         Scanner input=new Scanner(System.in);
-        String str=input.next();
-        int len=str.length();
+        String s=input.next();
+        int len=s.length();
         int count=0;
         for(int i=0;i<len;i++)
         {
-            if(Character.isDigit(str.charAt(i)))
+            if(Character.isDigit(s.charAt(i)))
             {
                 count++;
             }
