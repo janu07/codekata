@@ -21,11 +21,11 @@ class chan
             } 
             if(k==count)
             {
-                System.out.print("yes");
+                System.out.println("yes");
             }
             else
             {
-                System.out.print("no");
+                System.out.println("no");
             }
         }
     }
